@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { Box, Flex, Spacer, Heading, Button, Image } from '@chakra-ui/react'
+import { Box, Flex, Spacer, Button, Image } from '@chakra-ui/react'
 import styled from '@emotion/styled'
 
 const Nav = styled(Box)`
