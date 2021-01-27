@@ -13,7 +13,7 @@ export default function Routes() {
         {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
         <Switch>
-          <Route path="/">
+          <Route path="/" exact>
             <HomePage />
           </Route>
         </Switch>
