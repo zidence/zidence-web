@@ -12,6 +12,12 @@ import {
 export default function PropertiesCards() {
   return (
     <Box id="properties-cards" py={5}>
+      <Box py="5" borderBottom="2px solid" borderBottomColor="orange.300">
+        <Heading as="h1" size="2xl">
+          All properties
+        </Heading>
+      </Box>
+
       {propertiesData.map((property, index) => {
         const id = `property-card-${property.id}`
         return (
