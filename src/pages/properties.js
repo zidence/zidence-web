@@ -8,7 +8,7 @@ export default function PropertiesPage() {
   return (
     <Container>
       <Box py="5" borderBottom="2px solid" borderBottomColor="orange.300">
-        <Heading as="h1" size="xl">
+        <Heading as="h1" size="2xl">
           All properties
         </Heading>
       </Box>
