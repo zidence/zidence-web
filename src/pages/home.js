@@ -10,6 +10,7 @@ import {
   Text,
   Spacer,
   Image,
+  Button,
 } from '@chakra-ui/react'
 import { SearchIcon } from '@chakra-ui/icons'
 
@@ -71,10 +72,11 @@ export default function HomePage() {
             <Heading textAlign="center" as="h3">
               Buy a property
             </Heading>
-            <Text maxW="xs" mt={4}>
+            <Text textAlign="center" maxW="xs" mt={4} mb={4}>
               Find your place with an immersive photo experience and the most
               listings, including things you won’t find anywhere else.
             </Text>
+            <Button colorScheme="yellow">Browse properties</Button>
           </Flex>
 
           <Spacer />
@@ -92,10 +94,11 @@ export default function HomePage() {
             <Heading textAlign="center" as="h3">
               Sell a property
             </Heading>
-            <Text maxW="xs" mt={4}>
+            <Text textAlign="center" maxW="xs" mt={4} mb={4}>
               We’re creating a seamless online experience – from shopping on the
               largest rental network, to applying, to paying rent.
             </Text>
+            <Button colorScheme="yellow">Create a listing</Button>
           </Flex>
         </Flex>
       </Center>
