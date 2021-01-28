@@ -1,5 +1,7 @@
 import React from 'react'
 import { Box, Heading, Flex, Image, Text } from '@chakra-ui/react'
+import { Icon } from '@chakra-ui/react'
+import { FaMapMarkerAlt } from 'react-icons/fa'
 
 import propertiesData from '../data/properties.json'
 import {
@@ -50,7 +52,18 @@ export default function PropertiesCards() {
                 </Text>
                 <Text as="span">{property.unitSize} m²</Text>
               </Text>
-              <Text as="p">{formatLocation(property.location)}</Text>
+
+              <Flex>
+                <Icon
+                  as={FaMapMarkerAlt}
+                  w={4}
+                  h={4}
+                  mt={1}
+                  mr={1}
+                  color="red.500"
+                />
+                <Text as="p">{formatLocation(property.location)}</Text>
+              </Flex>
             </Box>
           </Flex>
         )
