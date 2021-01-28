@@ -9,6 +9,7 @@ import {
   Input,
   Text,
   Spacer,
+  Image,
 } from '@chakra-ui/react'
 import { SearchIcon } from '@chakra-ui/icons'
 
@@ -57,35 +58,45 @@ export default function HomePage() {
         </Heading>
 
         <Flex id="cards" m={10} width="3xl">
-          <Box
+          <Flex
             id="card-buy"
             bg="white"
             p={6}
             boxShadow="base"
             borderRadius="md"
+            flexDirection="column"
+            align="center"
           >
-            <Heading as="h3">Buy a property</Heading>
+            <Image boxSize="250px" src="/images/card-buy.svg" alt="Card Buy" />
+            <Heading textAlign="center" as="h3">
+              Buy a property
+            </Heading>
             <Text maxW="xs" mt={4}>
               Find your place with an immersive photo experience and the most
               listings, including things you won’t find anywhere else.
             </Text>
-          </Box>
+          </Flex>
 
           <Spacer />
 
-          <Box
+          <Flex
             id="card-sell"
             bg="white"
             p={6}
             boxShadow="base"
             borderRadius="md"
+            flexDirection="column"
+            align="center"
           >
-            <Heading as="h3">Sell a property</Heading>
+            <Image boxSize="250px" src="/images/card-sell.svg" alt="Card Buy" />
+            <Heading textAlign="center" as="h3">
+              Sell a property
+            </Heading>
             <Text maxW="xs" mt={4}>
               We’re creating a seamless online experience – from shopping on the
               largest rental network, to applying, to paying rent.
             </Text>
-          </Box>
+          </Flex>
         </Flex>
       </Center>
     </Box>
