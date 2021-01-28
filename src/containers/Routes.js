@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Navigation from '../components/Navigation'
 import HomePage from '../pages/home'
+import Footer from '../components/Footer'
 
 export default function Routes() {
   return (
@@ -18,6 +19,7 @@ export default function Routes() {
           </Route>
         </Switch>
       </div>
+      <Footer />
     </Router>
   )
 }
