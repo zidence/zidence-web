@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 import Navigation from '../components/Navigation'
 import HomePage from '../pages/home'
+import PropertiesPage from '../pages/properties'
 import Footer from '../components/Footer'
 
 export default function Routes() {
@@ -16,6 +17,9 @@ export default function Routes() {
         <Switch>
           <Route path="/" exact>
             <HomePage />
+          </Route>
+          <Route path="/properties">
+            <PropertiesPage />
           </Route>
         </Switch>
       </div>
