@@ -35,7 +35,7 @@
       "province": "Jawa Barat",
       "zipCode": "17421",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.28132,
         "lng": 106.94759
       }
@@ -83,7 +83,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -131,7 +131,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -179,7 +179,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -227,7 +227,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -275,7 +275,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -323,7 +323,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -371,7 +371,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -419,7 +419,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -467,7 +467,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -515,7 +515,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -563,7 +563,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -611,7 +611,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -659,7 +659,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -707,7 +707,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -755,7 +755,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -803,7 +803,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -851,7 +851,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -899,7 +899,7 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
       }
@@ -947,9 +947,19 @@
       "province": "Banten",
       "zipCode": "15321",
       "country": "Indonesia",
-      "geolocation": {
+      "geo": {
         "lat": -6.2937617,
         "lng": 106.6623471
+      }
+    }
+  },
+  {
+    "name": "M Haidar Hanif's House",
+    "images": ["/images/mhaidarhanif-house.jpg"],
+    "location": {
+      "geo": {
+        "lat": -6.3788849,
+        "lng": 106.8224244
       }
     }
   }
