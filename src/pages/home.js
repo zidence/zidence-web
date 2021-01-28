@@ -46,13 +46,7 @@ export default function HomePage() {
         </Flex>
       </Center>
 
-      <Center
-        id="home-content"
-        p={10}
-        display="flex"
-        flexDirection="column"
-        bg="gray.100"
-      >
+      <Center id="home-content" p={10} display="flex" flexDirection="column">
         <Heading as="h3" size="md" maxW="30ch" textAlign="center">
           Whether you’re buying, selling or renting, we can help you move
           forward.

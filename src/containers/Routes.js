@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import { Box } from '@chakra-ui/react'
 
 import Navigation from '../components/Navigation'
 import HomePage from '../pages/home'
@@ -9,21 +10,24 @@ import Footer from '../components/Footer'
 export default function Routes() {
   return (
     <Router>
-      <Navigation />
+      <Box bg="#fdf5e8">
+        <Navigation />
 
-      <div>
-        {/* A <Switch> looks through its children <Route>s and
+        <Box>
+          {/* A <Switch> looks through its children <Route>s and
             renders the first one that matches the current URL. */}
-        <Switch>
-          <Route path="/" exact>
-            <HomePage />
-          </Route>
-          <Route path="/properties">
-            <PropertiesPage />
-          </Route>
-        </Switch>
-      </div>
-      <Footer />
+          <Switch>
+            <Route path="/" exact>
+              <HomePage />
+            </Route>
+            <Route path="/properties">
+              <PropertiesPage />
+            </Route>
+          </Switch>
+        </Box>
+
+        <Footer />
+      </Box>
     </Router>
   )
 }

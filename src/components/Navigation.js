@@ -11,7 +11,7 @@ const Nav = styled(Box)`
 
 export default function Navigation() {
   return (
-    <Nav p={2}>
+    <Nav as="nav" p={2} boxShadow="lg" bg="#fefef2">
       <Flex align="center">
         <Button as={Link} to="/properties">
           All Properties
@@ -28,7 +28,7 @@ export default function Navigation() {
         <Button as={Link} to="/login">
           Login
         </Button>
-        <Button as={Link} to="/register" colorScheme="teal">
+        <Button as={Link} to="/register" colorScheme="yellow">
           Register
         </Button>
       </Flex>
