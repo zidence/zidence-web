@@ -11,7 +11,7 @@ import {
 
 export default function PropertiesCards() {
   return (
-    <Box id="properties-cards" py={5}>
+    <Box id="properties-cards" height="100vh" overflow="scroll" p={5}>
       <Box py="5" borderBottom="2px solid" borderBottomColor="orange.300">
         <Heading as="h1" size="2xl">
           All properties
@@ -24,14 +24,13 @@ export default function PropertiesCards() {
           <Flex
             key={id}
             id={id}
-            py={5}
             my={5}
+            p={2}
             boxShadow="base"
             borderRadius="md"
             bg="white"
-            width="700px"
           >
-            <Image width="350px" src={property.images[0]} alt={property.name} />
+            <Image width="320px" src={property.images[0]} alt={property.name} />
             <Box pl={4}>
               <Heading as="h2" size="lg">
                 {property.name}

@@ -1,17 +1,27 @@
 import React from 'react'
 import { Box } from '@chakra-ui/react'
-import GoogleMapReact from 'google-map-react'
+import ReactMapboxGl, { Layer, Feature } from 'react-mapbox-gl'
+import 'mapbox-gl/dist/mapbox-gl.css'
+
+const Map = ReactMapboxGl({
+  accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
+})
 
 export default function PropertiesMaps() {
   return (
-    <Box id="properties-map" width="50%" bg="white">
-      <GoogleMapReact
-        bootstrapURLKeys={{ key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY }}
-        defaultCenter={{ lat: 59.95, lng: 30.33 }}
-        defaultZoom={11}
+    <Box id="properties-map" height="100vh" width="50vw">
+      <Map
+        // eslint-disable-next-line react/style-prop-object
+        style="mapbox://styles/mapbox/streets-v9"
+        containerStyle={{
+          height: '100vh',
+          width: '50vw',
+        }}
       >
-        <p>Example</p>
-      </GoogleMapReact>
+        <Layer type="symbol" id="marker" layout={{ 'icon-image': 'marker-15' }}>
+          <Feature coordinates={[-0.481747846041145, 51.3233379650232]} />
+        </Layer>
+      </Map>
     </Box>
   )
 }
