@@ -6,6 +6,16 @@ import 'mapbox-gl/dist/mapbox-gl.css'
 import MapboxMarker from './MapboxMarker'
 import propertiesData from '../data/properties.json'
 
+// eslint-disable-next-line import/no-webpack-loader-syntax
+import MapboxWorker from 'worker-loader!mapbox-gl/dist/mapbox-gl-csp-worker'
+/**
+ * Configuration values for Mapbox Component.
+ *
+ * @interface ReactMapboxGl interface with configurations for creating the map.
+ */
+
+ReactMapboxGl.workerClass = MapboxWorker.default
+
 const Mapbox = ReactMapboxGl({
   accessToken: process.env.REACT_APP_MAPBOX_ACCESS_TOKEN,
 })
