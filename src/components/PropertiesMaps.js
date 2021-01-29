@@ -24,7 +24,7 @@ export default function PropertiesMaps() {
         zoom={[10]}
       >
         {propertiesData.map((property, index) => {
-          return <MapboxMarker property={property} />
+          return <MapboxMarker key={index} property={property} />
         })}
       </Mapbox>
     </Box>

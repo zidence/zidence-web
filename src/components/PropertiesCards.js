@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { Box, Heading, Flex, Image, Text } from '@chakra-ui/react'
 import { Icon } from '@chakra-ui/react'
 import { FaMapMarkerAlt } from 'react-icons/fa'
@@ -31,6 +32,8 @@ export default function PropertiesCards() {
             boxShadow="base"
             borderRadius="md"
             bg="white"
+            as={Link}
+            to={`/properties/${property.id}`}
           >
             <Image width="320px" src={property.images[0]} alt={property.name} />
             <Box pl={4}>
