@@ -25,3 +25,11 @@ yarn dev
 ```sh
 yarn build
 ```
+
+## Pages Documentation
+
+| Route             | Component      |
+| ----------------- | -------------- |
+| `/`               | HomePage       |
+| `/properties`     | PropertiesPage |
+| `/properties/:id` | PropertyPage   |

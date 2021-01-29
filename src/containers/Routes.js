@@ -6,6 +6,7 @@ import Navigation from '../components/Navigation'
 import HomePage from '../pages/home'
 import PropertiesPage from '../pages/properties'
 import Footer from '../components/Footer'
+import PropertyPage from '../pages/property'
 
 export default function Routes() {
   return (
@@ -20,8 +21,11 @@ export default function Routes() {
             <Route path="/" exact>
               <HomePage />
             </Route>
-            <Route path="/properties">
+            <Route path="/properties" exact>
               <PropertiesPage />
+            </Route>
+            <Route path="/properties/:id">
+              <PropertyPage />
             </Route>
           </Switch>
         </Box>
